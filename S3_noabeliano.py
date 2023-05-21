@@ -49,7 +49,7 @@ def g(y):
 
 def abeliano(elemento):
     """definimos una funcion para saber si la operacion hace que los elementos
-    conmunren cuando operan entre si"""
+    conmunten cuando operan entre si"""
     """operamos los dos elementos de S3, f compuesta con g : g(f(x))
     preimero se llama a la funcion f(x) y despues a la g(y)"""
     composicion_gf = g(f(elemento))             
