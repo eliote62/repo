@@ -11,7 +11,7 @@ def sumar(a,b):
     return a+b
 
 """TERCERO: comprobamos la definición de elemento neutro, es decir, que de manera conmutativa
-la suma del neutro con cualquier otro elemento da como resultado este elemento """
+la suma del neutro con cualquier otro elemento del conjunto da como resultado este elemento """
 acum = 0
 for i in G:
   if sumar(i,G[0])==G[0] and sumar(i,G[1])==G[1] and sumar(i,G[2])==G[2] and sumar(i,G[3])==G[3]:
