@@ -1,12 +1,12 @@
 """PROPIEDAD DEL ELEMENTO NEUTRO
 Este script determina si exite o no el ELEMENTO NEUTRO de un conjunto,
- en este caso el conjunto G={3,5,1,0}  (un conjunto finito de números enteros), 
+ en este caso el conjunto G (conjunto finito de números enteros), 
  respecto de una operación, en este caso la SUMA. Tambien cuenta el numero de 
  elementos NEUTROS que hay en el conjuno estudiado"""
 
 """PRIMERO: asignamos mediante un lista los elementos del conjunto"""
 G=[3,0,1,0,7,11,29,12,0,0]      
-n = len(G)              #numero de elementos del conjunto G
+n = len(G)                                    #numero de elementos del conjunto G
 
 """SEGUNDO: definimos la operación que relaciona los elementos del conjunto, la suma"""
 def sumar(a,b):
