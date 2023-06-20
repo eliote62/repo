@@ -1,4 +1,4 @@
-class Personaje:
+class Personaje:  # creamos las clase (objeto) Personaje
     """nombre = "Default"
     fuerza = 0
     inteligencia = 0
@@ -39,7 +39,10 @@ class Personaje:
         enemigo.vida = enemigo.vida - daño
         print(self.nombre, "ha realizado", daño,
               "puntos de daño a", enemigo.nombre)
-        print("la vida de", enemigo.nombre, "es", enemigo.vida)
+        if enemigo.esta_vivo():
+            print("la vida de", enemigo.nombre, "es", enemigo.vida)
+        else:
+            enemigo.morir()
 
 
 mi_personaje = Personaje("Eliote", 10, 1, 5, 100)
