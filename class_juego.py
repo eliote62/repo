@@ -5,7 +5,7 @@ class Personaje:  # creamos las clase (objeto) Personaje
     defensa = 0
     vida = 0"""
 
-    def __init__(self, nombre, fuerza, inteligencia, defensa, vida):
+    def __init__(self, nombre, fuerza, inteligencia, defensa, vida):  # constructor
         self.nombre = nombre
         self.fuerza = fuerza
         self.inteligencia = inteligencia
